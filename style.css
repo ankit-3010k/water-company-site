@@ -94,6 +94,7 @@ body{
     max-height: 500px;
     position: relative;
     width: 100%;
+    transform: translateY(81px);
 }
 .banner a{
     padding: 12px;
@@ -111,6 +112,12 @@ body{
 .banner a:hover{
     color: #fff;
 
+}
+.fa-arrow-circle-down{
+    color: var(--primaryColor);
+    font-size: 40px;
+    cursor: pointer;
+    transform: translateY(39px);
 }
 .join-free-btn{
     background: #fff !important;
@@ -425,5 +432,9 @@ textarea{
         margin: 0 auto;
         text-align: center;
        
+    }
+    .banner img{
+        cursor: pointer;
+        transform: translateY(40px);
     }
 }
